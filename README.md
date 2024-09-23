@@ -29,6 +29,7 @@ Este es un proyecto que implementa una API RESTful en Node.js utilizando Express
 
     Respuesta:
 
+    ```bash
     {
     "results": [
         { "name": "bulbasaur", "url": "https://pokeapi.co/api/v2/pokemon/1/" },
