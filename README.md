@@ -1,6 +1,6 @@
 # PokeAPI Connector
 
-Este es un proyecto que implementa una API RESTful en Node.js utilizando Express. La API se conecta a la [PokeAPI](https://pokeapi.co/docs/v2) para obtener información sobre Pokémones y procesar la data requerida.
+Este es un proyecto que implementa una API RESTful en Node.js utilizando Express. La API se conecta a la [PokeAPI](https://pokeapi.co/docs/v2) para obtener información sobre Pokémones y procesar la data requerida. También se utiliza nodemon para facilitar el desarrollo
 
 ## Requisitos
 
@@ -12,7 +12,7 @@ Este es un proyecto que implementa una API RESTful en Node.js utilizando Express
 1. Clonar el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/pokeapi-connector.git
+   git clone https://github.com/aslays/pokeapi-connector.git
    cd pokeapi-connector
 
 
