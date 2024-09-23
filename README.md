@@ -51,25 +51,26 @@ Este es un proyecto que implementa una API RESTful en Node.js utilizando Express
     id: El ID del Pokémon.
     Respuesta:
 
+    ```bash
     {
-  "name": "bulbasaur",
-  "types": [
-    {
-      "slot": 1,
-      "type": {
-        "name": "grass",
-        "url": "https://pokeapi.co/api/v2/type/12/"
-      }
-    },
-    {
-      "slot": 2,
-      "type": {
-        "name": "poison",
-        "url": "https://pokeapi.co/api/v2/type/4/"
-      }
+    "name": "bulbasaur",
+    "types": [
+        {
+        "slot": 1,
+        "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/"
+        }
+        },
+        {
+        "slot": 2,
+        "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/"
+        }
+        }
+    ]
     }
-  ]
-}
 
 
 6. Obtener un Pokémon y traducciones de sus tipos
@@ -84,55 +85,55 @@ Este es un proyecto que implementa una API RESTful en Node.js utilizando Express
     id: El ID del Pokémon.
     Respuesta:
 
-
+    ```bash
     {
-  "name": "bulbasaur",
-  "types": [
-    {
-      "slot": 1,
-      "type": {
-        "name": "grass",
-        "url": "https://pokeapi.co/api/v2/type/12/",
-        "names": [
-          {
-            "language": {
-              "name": "es",
-              "url": "https://pokeapi.co/api/v2/language/7/"
+    "name": "bulbasaur",
+    "types": [
+        {
+        "slot": 1,
+        "type": {
+            "name": "grass",
+            "url": "https://pokeapi.co/api/v2/type/12/",
+            "names": [
+            {
+                "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+                },
+                "name": "Planta"
             },
-            "name": "Planta"
-          },
-          {
-            "language": {
-              "name": "ja",
-              "url": "https://pokeapi.co/api/v2/language/11/"
+            {
+                "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+                },
+                "name": "くさ"
+            }
+            ]
+        }
+        },
+        {
+        "slot": 2,
+        "type": {
+            "name": "poison",
+            "url": "https://pokeapi.co/api/v2/type/4/",
+            "names": [
+            {
+                "language": {
+                "name": "es",
+                "url": "https://pokeapi.co/api/v2/language/7/"
+                },
+                "name": "Veneno"
             },
-            "name": "くさ"
-          }
-        ]
-      }
-    },
-    {
-      "slot": 2,
-      "type": {
-        "name": "poison",
-        "url": "https://pokeapi.co/api/v2/type/4/",
-        "names": [
-          {
-            "language": {
-              "name": "es",
-              "url": "https://pokeapi.co/api/v2/language/7/"
-            },
-            "name": "Veneno"
-          },
-          {
-            "language": {
-              "name": "ja",
-              "url": "https://pokeapi.co/api/v2/language/11/"
-            },
-            "name": "どく"
-          }
-        ]
-      }
+            {
+                "language": {
+                "name": "ja",
+                "url": "https://pokeapi.co/api/v2/language/11/"
+                },
+                "name": "どく"
+            }
+            ]
+        }
+        }
+    ]
     }
-  ]
-}
